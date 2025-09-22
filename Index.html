@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site com Foto</title>
+  <style>
+    #minhaFoto {
+      display: none;
+      width: 300px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meu Site</h1>
+  <button onclick="mostrarFoto()">Clique para ver a foto</button>
+  <br>
+  <img id="minhaFoto" src="minhafoto.jpg" alt="Minha Foto">
+
+  <script>
+    function mostrarFoto() {
+      document.getElementById("minhaFoto").style.display = "block";
+    }
+  </script>
+</body>
+</html>
